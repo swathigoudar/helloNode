@@ -16,6 +16,6 @@
   },
   "scripts": {
       "start": "pm2 start app.js",
-      "stop": "pm2 stop 0"
+      "stop": "pm2 stop all"
 }
 }
