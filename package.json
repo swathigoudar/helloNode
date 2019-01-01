@@ -15,7 +15,7 @@
     "supertest": "^1.0.0"
   },
   "scripts": {
-    "start": "node app.js",
-     "stop": "node stopall"
-  }
+      "start": "forever start app.js",
+      "stop": "forever stopall"
+},
 }
